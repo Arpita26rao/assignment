@@ -1,1 +1,1 @@
-console.log("Hello via Bun!");
+import { serveStatic } from "@hono/node-server/serve-static";

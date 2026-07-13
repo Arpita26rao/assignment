@@ -1,6 +1,6 @@
 // src/services/schedulerService.ts - FIX DOUBLE NOTIFICATION ISSUE
+import Database from "better-sqlite3";
 
-import Database from "bun:sqlite";
 import { batchService } from "./batchService";
 import { emailService } from "./emailService";
 import { notificationService } from "./notificationService";
